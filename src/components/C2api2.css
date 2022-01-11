@@ -1,0 +1,64 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.set12{
+    position:relative;
+    left:35%;
+    margin:1rem 0;
+}
+
+.parasection{
+    position:relative;
+    left:35%;
+}
+
+.mountain{
+    width:30rem;
+    height:15rem;
+    position: relative;
+    left:35%;
+}
+
+.sculpture{
+    width:8rem;
+    height:7rem;
+}
+
+.set12imagediv{
+    
+    margin:0.5rem 0rem;
+    display:inline-flex;
+    border-top:1px solid gray;
+    padding:1rem;
+    margin-left:10px
+    
+}
+
+.set12imagediv img{
+    width:10vw;
+    
+}
+
+
+.set12paradiv{
+    width:11rem;
+    margin:0rem 2rem;
+    text-align: left;
+    
+}
+.set12paradiv p{
+    width:15rem;
+}
+
+
+.mainheading2{
+    display:inline-block;
+    position:relative;
+    left:50%;
+    top:80%;
+}
+

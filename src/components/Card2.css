@@ -1,0 +1,175 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.origin-div{
+    width:80%;
+    margin-left:10%;
+    text-align: center;  
+}
+
+.heading_sec h1{
+    font-size:50px;
+    text-align: center;
+}
+.heading_sec h1 span{
+    font-size: 30px;
+    display:inline-flex;
+    transform:rotate(270deg);
+    padding-top:20px;  
+}
+
+.hamburger-icon{
+    display:none;
+}
+
+
+.menu{
+    border-bottom: 1px solid;
+    padding-bottom:2vh ;
+    margin-top: 5vh;
+}
+.menu ul{
+    display:inline-flex;
+    justify-content:space-between ;
+    width:100%;
+    list-style-type: none;
+
+}
+.second-sec{
+    display: inline-flex;
+}
+.bollywood-sec{
+    width:70%;
+}
+.bollywood-sec  h1{
+    border-bottom: 2px solid red;
+    width:5vw;
+    margin-top: 2vh;
+}
+.bollywood-sec p{
+    text-align: left;
+}
+.bollywood-sec p span{
+    color:red;
+}
+.top-posts-sec{
+    width:30%;
+    margin-top: 2vh;
+    text-align: left;
+    margin-left: -12vw;
+}
+.top-posts-sec h1 span{
+    border-bottom: red;
+
+}
+.top-posts-sec img{
+    width:150%;
+}
+
+.top-posts-sec h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid;
+    height: 30%;
+    width:20vw;
+    letter-spacing: 3px;
+    margin-left: 2vw;
+}
+
+@media (max-width:680px){
+    .origin-div{
+        margin-left:3%;
+    }
+    .heading_sec h1{
+        font-size:35px;
+        text-align: left; 
+    }
+
+    .heading_sec h1 span{
+        font-size:20px;
+        padding-top: 10px;
+    }
+
+    .menu{
+        display:none;
+    }
+
+    .hamburger-icon{
+        position: absolute;
+        left:85vw;
+        top:10px;
+        font-size: 25px;
+        cursor: pointer;
+        display: block;
+    }
+
+    .menu-mobile{
+      
+        position:absolute;
+        top:5vh;
+        left:0vw;
+        width: 100%;
+    }
+    
+    .menu-mobile li{
+        background-color: snow;
+        text-align: center;
+        border-bottom: 2px solid lightgrey;
+        height:40px;
+        font-size: 20px;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bollywood-sec h1{
+        width:7vw;
+        font-size:20px;
+    }
+
+    .second-sec{
+        display:block;
+    }
+    .top-posts-sec{
+        position:relative;
+        left:10vw;
+    }
+    .top-posts-sec h1{
+        width:40vw;
+    }
+    .top-posts-sec img{
+        width:90vw;
+    }
+
+    .top-posts-sec h3{
+        width:50vw;
+        font-size:25px;
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+    .top-posts-sec p{
+        width:40vw;
+        margin-bottom:2vh ;
+    
+    }
+
+    .top-posts-sec h2{
+        display:none;
+    }
+
+    footer{
+        position:relative;
+        top:45vh;
+    }
+
+
+
+}
+
+
