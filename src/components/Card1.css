@@ -458,6 +458,7 @@ i{
         left:85vw;
         top:8vh;
         font-size: 30px;
+        cursor: pointer;
     }
 
     .headings{
