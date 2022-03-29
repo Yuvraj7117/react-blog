@@ -40,15 +40,14 @@ return(
        
 
     </div>
-    <div className={clicked ? "mobile-headings":"headings"}>
+    <div className={clicked ? "mobile-headings":"headings"} style={{cursor:"pointer"}} >
 
-        <h6>Home</h6>
-        <h6>Bollywood</h6>
-        <h6>Technology</h6>
-        <h6>Hollywood</h6>
-        <h6>Fitness</h6>
-        <h6>Food</h6>
-
+        <Link to="/" style={{textDecoration:"none",color:"black"}}><h6 >Home</h6></Link>
+        <Link to="/Card2" style={{textDecoration:"none",color:"black"}}><h6>Bollywood</h6></Link>
+        <Link to="/Technology" style={{textDecoration:"none",color:"black"}}><h6>Technology</h6></Link>
+        <Link to="/Hollywood" style={{textDecoration:"none",color:"black"}}><h6>Hollywood</h6></Link>
+        <Link to="/Fitness" style={{textDecoration:"none",color:"black"}}><h6>Fitness</h6></Link>
+        <Link to="/Food" style={{textDecoration:"none",color:"black"}}><h6>Food</h6></Link>
     </div>
     <div className="set1">
         <div>
@@ -256,7 +255,7 @@ return(
     </div>
  
     <div className="xd">
-    <i className='fa fa-home'> <Link to="/Card3">&#60;</Link>  1 of 3 <Link to="Card2">&#62;</Link> </i>
+    <i className='fa fa-home'> <Link to="/Card3">&#60;</Link>  1 of 3 <Link to="/Card2">&#62;</Link> </i>
 
     </div>
 

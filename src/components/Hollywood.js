@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./Card2.css";
+import "./hollywood.css";
 import Api from './C2api1.js';
 import Api2 from './C2api2.js';
 import { Link } from 'react-router-dom';
@@ -28,7 +28,7 @@ const Card2 = () => {
                     <h1><span>The</span>Siren</h1>
                     <div className={show ?'menu-mobile':'menu'}>
                         <ul>
-                        <Link to="/"><li style={{textDecoration:"none",color:"black"}}>Home</li></Link>
+                        <Link to="/"><li style={{color:"black",textDecoration:"none"}}>Home</li></Link>
                         <Link to="/Card2" style={{textDecoration:"none",color:"black"}}><li>Bollywood</li></Link>
                         <Link to="/Technology" style={{textDecoration:"none",color:"black"}}><li>Technology</li></Link>
                         <Link to="/Hollywood" style={{textDecoration:"none",color:"black"}}><li>Hollywood</li></Link>
@@ -40,7 +40,7 @@ const Card2 = () => {
 
                {/* Hamburger */}
                 <div className='hamburger-icon'>
-                    <a onClick={()=>setShow(!show)}>
+                    <a onClick={()=>setShow(!show)} href="#">
                         <GiHamburgerMenu/>
                     </a>
                 </div>
@@ -49,7 +49,7 @@ const Card2 = () => {
                 {/* Bollywood */}
                <div className='second-sec'>
                    <div className='bollywood-sec'>
-                       <h1>Bollywood</h1>
+                       <h1>Hollywood</h1>
                        <Api/>
                        <Api/>
                        <Api/>

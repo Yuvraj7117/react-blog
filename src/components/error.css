@@ -1,0 +1,32 @@
+.container{
+  margin: 20vh 20vw;
+  width:60vw;
+  font-size: 50px;
+  text-align: center;
+  line-height: 15vh;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container h2{
+    color:red;
+    font-size: 150px;
+
+}
+
+.container h1{
+    margin-left:7vw;
+}
+
+.back{
+    background-color: blue;
+    width:10%;
+    height: 4vh;
+    font-size: 30px;
+    margin-left: 45vw;
+    margin-top: -15vh;
+    color:aliceblue;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}

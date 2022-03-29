@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "./Card2.css";
+import "./hollywood.css";
 import Api from './C2api1.js';
 import Api2 from './C2api2.js';
 import { Link } from 'react-router-dom';
@@ -49,7 +49,7 @@ const Card2 = () => {
                 {/* Bollywood */}
                <div className='second-sec'>
                    <div className='bollywood-sec'>
-                       <h1>Bollywood</h1>
+                       <h1>Food</h1>
                        <Api/>
                        <Api/>
                        <Api/>
